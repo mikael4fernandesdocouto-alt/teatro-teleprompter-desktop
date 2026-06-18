@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tar.gz
+*.zip
+.vscode/
+.idea/
+*.log
+node_modules/
+dist/
+*.zip
+*.tar.gz
+models/

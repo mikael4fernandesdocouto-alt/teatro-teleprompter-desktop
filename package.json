@@ -1,0 +1,21 @@
+{
+  "name": "teatro-teleprompter",
+  "version": "2.0.0",
+  "description": "Teatro Teleprompter - App Desktop",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Teatro-Teleprompter --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/icon.ico --asar=false --prune=false"
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "koffi": "^3.0.2",
+    "ref-napi": "^3.0.3",
+    "vosk": "^0.3.39",
+    "vosk-browser": "^0.0.8"
+  }
+}
